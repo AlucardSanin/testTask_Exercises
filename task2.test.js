@@ -1,5 +1,6 @@
-const reverseString = require('./task2')
+const calculator= require('./task3')
 
-test('Reverse', () => {
-    expect(reverseString('apples')).toBe("selppa");
+test('Solved', (a=5, b=5) => {
+    expect(calculator.sum('')).toBe("");
 })
+
